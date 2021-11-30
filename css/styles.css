@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  line-height: 4;
+  position: absolute;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.5rem;
+  color: #B22222;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Indie Flower', cursive;
+  color: #11999E;
+}
+hr {
+  border: dotted #11999E 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto 100px;
+
+}
+a {
+  color: #B22222;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #11999E;
+}
+
+.background {
+  width: 100%;
+}
+
+.name {
+  line-height: 10;
+  margin-left: 30px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  color: white;
+  font-weight: bolder;
+  position: absolute;
+}
+
+.profile{
+  width: 15%
+
+}
+.description{
+  margin: 30px auto 30px auto;
+  width: 50%;
+  text-align: center;
+  line-height: 2;
+}
+.skills-row {
+  margin: 50px auto 50px auto;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  line-height: 2;
+}
+.art-image{
+  width: 15%;
+  float: left;
+  margin-right:30px;
+}
+.robot{
+  width:15%;
+  float:right;
+  margin-left: 30px;
+}
+.pcb{
+  width: 15%;
+  float:left;
+  margin-right: 30px
+}
+.medium-container {
+  margin:auto;
+  background-color: #F0F8FF;
+  padding:50px;
+}
+.bottom-container{
+background-color: #66bfbf;
+padding: 30px 0 20px;
+
+}
+.footer-link {
+  color: #B22222;
+}
+.btn {
+  background: #eb4949;
+  background-image: -webkit-linear-gradient(top, #eb4949, #240505);
+  background-image: -moz-linear-gradient(top, #eb4949, #240505);
+  background-image: -ms-linear-gradient(top, #eb4949, #240505);
+  background-image: -o-linear-gradient(top, #eb4949, #240505);
+  background-image: linear-gradient(to bottom, #eb4949, #240505);
+  -webkit-border-radius: 16;
+  -moz-border-radius: 16;
+  border-radius: 16px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #421111;
+  background-image: -webkit-linear-gradient(top, #421111, #e03d3d);
+  background-image: -moz-linear-gradient(top, #421111, #e03d3d);
+  background-image: -ms-linear-gradient(top, #421111, #e03d3d);
+  background-image: -o-linear-gradient(top, #421111, #e03d3d);
+  background-image: linear-gradient(to bottom, #421111, #e03d3d);
+  text-decoration: none;
+}
